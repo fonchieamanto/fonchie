@@ -1,0 +1,270 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+nav {
+    background-color: #ff5757;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > .nav-left > input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+}
+
+nav > ul > li {
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(187, 187, 187);
+}
+
+
+.chie-1 {
+    text-align: center;
+    background-image: url('bg-chie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    padding: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.chie-1 > h1 {
+    font-size: 120px;
+    font-family: 'Comforter', cursive;
+    margin: 0;
+    color: #ff1717;
+}
+
+.chie-1 > h3 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #a17d63;
+    letter-spacing: 15px;
+}
+
+.chie-1 > img {
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 75%;
+}
+
+.chie-2 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.chie-2 > h2 {
+    color: #83634b;
+    text-align: center;
+}
+
+.chie-2 > h1 {
+    color: #ff1717;
+    text-align: center;
+}
+
+.chie-2 > .dt-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.chie-2 > .dt-container > dl > dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff1717;
+    margin: 20px;
+}
+
+.chie-2 > .dt-container > dl > dt > img {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.chie-2 > .dt-container > dl > dd {
+    color: rgb(51, 51, 51);
+}
+
+.chie-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.chie-3 > .row1 > img, .chie-3 > .row2 > img {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-image: url('bg-foot.jpg');
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+footer > .social {
+    padding-right: 20px;
+}
+
+footer > .social > li {
+    list-style: none;
+}
+
+footer > .social > li > a{
+    text-decoration: none;
+    color: #5c4635;
+}
+
+footer > .contact {
+    color: #5c4635;
+}
+
+footer > .social >  li > a:hover {
+    color: black;
+}
+
+
+/* About */
+.about-container {
+    display: flex;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    width: 40%;
+    text-align: center;
+    padding: 30px;
+    background-color: blanchedalmond;
+}
+
+.left-container > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.left-container > p {
+    text-align: justify;
+}
+
+.right-container {
+    flex-grow: 2;
+    width: 100%;
+    padding: 30px;
+}
+
+.right-container > h1 {
+    font-family: 'Comforter', cursive;
+    font-size: 70px;
+    margin-bottom: 0;
+    color: #ff1717;
+    text-align: center;
+}
+
+.right-container > h2 {
+    font-family: 'Comforter', cursive;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #ff1717;
+}
+
+.right-container > h3 {
+    font-family: 'Verdana';
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #a17d63;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.right-container > p {
+    letter-spacing: 1px;
+    color: rgb(51, 51, 51);
+}
+
+/* services */
+
+.chie-service1 h1{
+    font-family: 'Comforter', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #a17d63;
+}
+
+.service-container {
+    display: flex;
+}
+
+.service-container > img {
+    width: 100%;
+    padding: 20px;
+}
+
+.service-container > p {
+    width: 100%;
+    padding: 20px;
+}
+
+.chie-service2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.chie-service2 > .row1 > img, .chie-service2 > .row2 > img {
+    padding: 20px;
+    margin: 20px;
+}
+
+
